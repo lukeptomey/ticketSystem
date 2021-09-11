@@ -96,8 +96,8 @@ class App extends React.Component{
 
   return (
     <div className="app">
-      <div className='container'>
-           
+      <div  className='container'>
+           <span>INSURE Incident Response</span>
           <LoginForm/>
       </div>
     </div>

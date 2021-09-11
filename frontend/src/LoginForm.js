@@ -75,7 +75,7 @@ class LoginForm extends React.Component {
 
     return (
       <div className="loginForm">
-        Log in
+        Log Into Your Account
         <InputField
           type='text'
           placeholder='Username'
@@ -90,7 +90,7 @@ class LoginForm extends React.Component {
           onChange={(val) => this.setInputValue('password', val)}
         />
         <SubmitButton
-          text='Login'
+          text='Log In'
           disabled={this.state.buttonDisabled}
           onClick={() => this.doLogin}
         
